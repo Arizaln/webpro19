@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Registrasi Mahasiswa </title>
+    </head>
+    <style>
+        .judul{color: aqua;}
+    </style>
+    <body bgcolor="black" style="color: rgb(219, 74, 195);">
+    
+    <!-- judul halaman -->
+    <div class="judul"><h1 align="center" style="font-size: 45px;">PENDAFTARAN MAHASISWA STT NURUL FIKRI</h1></div>
+    </br> </br> </br>
+    <!-- bagian akhir judul halaman -->
+
+    <!--  bagian awal formulir -->
+        <form>
+            <fieldset>
+                <legend style="font-size: 25px;"><div class="judul"><b>FORM REGISTRASI</b></div></legend>
+
+                <!-- bagian awal form informasi pribadi -->
+                <div class="judul"><h2 style="font-size: 15px;">INFORMASI PRIBADI</h2></div>
+                <hr>
+                <table border="0" cellspacing="15" cellpadding="0">
+                    <tr>
+                        <td><label for="Nama">NAMA</label></td>
+                        <td><input type="text" name="nama" placeholder="masukan nama lengkap" id="Nama"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Tempat">TEMPAT</label></td>
+                        <td><input type="text>" id="Tempat" placeholder="masukan tempat lahir">
+                        <td><input type="date" name="tanggal lahir"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Agama">AGAMA</label></td>
+                        <td>
+                            <select id="Agama">
+                            <option>Islam</option>
+                            <option>Kristen</option>
+                            <option>Budha</option>
+                            <option>Katolik</option>
+                            <option>Hindu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="jenis kelamin">JENIS KELAMIN</label></td>
+                        <td><input type="radio" name="jenis kelamin" id="jenis kelamin">Laki-Laki<input type="radio" name="jenis kelamin" id="jenis kelamin">Perempuan</td>
+                    </tr>
+                    <tr>
+                        <td><label for="Golongan darah">GOL.DARAH</label></td>
+                        <td>
+                            <select id="Golongan darah">
+                            <option>A</option>
+                            <option>B</option>
+                            <option>O</option>
+                            <option>AB</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                </table>
+                <hr>
+                <!-- bagian akhir form informasi pribadi -->
+
+                <!-- bagian awal form informasi kontak -->
+                <div class="judul"><h2 style="font-size: 15px;">INFORMASI KONTAK</h2></div>
+                <hr>
+                <table border="0" cellspacing="15" cellpadding="0">
+                    <tr>
+                        <td><label for="Alamat">ALAMAT</label></td>
+                        <td><textarea name="alamat" placeholder="masukan alamat lengkap" id="Alamat"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Kota">KOTA</label></td>
+                        <td><input type="text" name="kota" placeholder="masukan nama kota" id="Kota"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Negara">NEGARA</label></td>
+                        <td><input type="text" name="negara" placeholder="masukan nama negara" id="Negara"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Kode pos">KODE POS</label></td>
+                        <td><input type="number" name="kode pos" placeholder="masukan kode pos" id="Kode pos"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Email">EMAIL</label></td>
+                        <td><input type="email" name="email" placeholder="masukan email" id="Email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Notelp">NO.TELP</label></td>
+                        <td><input type="text" name="notelp" placeholder="masukan nomor telepon" id="Notelp"></td>
+                    </tr>
+                </table>
+                <hr>
+                <div class="judul"><h2 style="font-size: 15px;">PILIHAN JALUR</h2></div>
+                <hr>
+                <table border="0" cellspacing="15" cellpadding="0">
+                    <tr>
+                        <td><label for="Jalur">JALUR</label></td>
+                        <td><input type="radio" name="jalur" id="Jalur">Reguler<input type="radio" name="jalur" id="Jalur">Beasiswa <input type="radio" name="jalur" id="Jalur">Kemitraan</td>
+                    </tr>
+                </table>
+                <hr>
+                <!--  bagian akhir form informasi kontak -->
+
+                <!-- bagian awal form  pembayaran -->
+                <div class="judul"><h2 style="font-size: 15px;">PEMBAYARAN</h2></div>
+                <hr>
+                <table border="0" cellspacing="15" cellpadding="0">
+                    <tr>
+                        <td><label for="Detail pembayaran">DETAIL PEMBAYARAN</label></td>
+                        <td><input type="checkbox" name="jenis pembayaran" id="Detail pembayaran">Cash<input type="checkbox" name="jenis pembayaran" id="Detail pembayaran">Cek<input type="checkbox" name="jenis pembayaran" id="Detail pembayaran">Transfer</td>
+                    </tr>
+                    <tr>
+                        <td><label for="Komentar">KOMENTAR</label></td>
+                        <td><textarea name="komentar" id="Komentar" placeholder="tulis komentar"></textarea></td>
+                    </tr>
+                </table>
+                <hr>
+                <!-- bagian akhir form pembayaran -->
+
+                <!-- tombol kirim -->
+                <table align="center">
+                    <tr>
+                        <td><button type="submit">KIRIM</button></td>
+                    </tr>
+                </table>
+                <!-- bagian akhir tombol kirim -->
+  
+            </fieldset>
+        </form>
+        <!-- bagian akhir formulir -->
+
+    </body>
+
+</html>
