@@ -1,0 +1,13 @@
+select, img {
+    width: 250px;
+    height: auto;
+}
+.kotak{
+    background-color: brown;
+    width:300px;
+    height:360px;
+    
+}
+.kotak-dalam{
+    margin-left:23px;
+}

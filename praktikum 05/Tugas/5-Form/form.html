@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="/praktikum 05/CSS/validation.css">
+<body>
+<h3>FORM PEMBELIAN TIKET PESAWAT</h3>
+    <form action="" class="kotak">
+        <div class="form-group">
+            <label for="nama">Nama Pembeli:</label>
+            <input type="text" id="nama" placeholder="Masukkan Nama lengkap" required maxlength="30" minlength="3">
+            <span class="sukses"></span>
+        </div><br>
+        <div class="form-group">
+            <label for="email">Email Pembeli:</label>
+            <input type="email" id="email" placeholder="Masukkan Email Aktif" required minlength="8">
+            <span class="sukses"></span>
+        </div><br>
+        <div class="form-group">
+            <label for="jam">Jam Keberangkatan:</label>
+            <input type="time" id="jam" min="00:00" max="23:59" required>
+            <span class="sukses"></span>
+        </div><br>
+        <div class="form-group">
+            <label for="tujuan">Tujuan Keberangkatan:<abbr title="This field is mandatory" aria-label="required"></abbr></label>
+            <input type="text" id="tujuan" required>
+            <span class="sukses"></span>
+        </div><br>
+        <div class="form-group">
+            <label for="Jumlah">Jumlah Tiket: </label>
+            <input type="text" id="tiket">
+            <span class="sukses"></span>
+        </div><br>
+
+        <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <div id="hasil">
+    </div>
+
+    <script src="/praktikum 05/JS/validation.js"></script>
+</body>
+</head>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/praktikum 05/CSS/image.css">
+    <script src="/praktikum 05/JS/image.js"></script>
+    <title>Image Picker</title>
+</head>
+
+<body>
+ <div class="kotak">
+    <div class="kotak-dalam">
+     <h2>macam-macam primata </h2>
+     <select id="gantiGambar" onchange="ganti_gambar()">
+        <option disabled selected>pilih primatanya</option>
+        <option value="bekantan" >Bekantan</option>
+        <option value="siamang">Siamang</option>
+        <option value="simpanse">Simpanse</option>
+        <option value="kukang">Kukang</option>
+        <option value="gorila">Gorila</option>
+        <option value="orang_utan">Orang Utan </option>
+     </select>
+     <br/>
+     <br/>
+     <img id="gambar" src="../4-Image/gambar/primata.png" alt="Pilih Hewan dikolom untuk menampilkan hewan!" width="100px" height="auto">
+    </div>
+ </div>
+</body>
+
+</html>

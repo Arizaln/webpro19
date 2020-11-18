@@ -1,0 +1,24 @@
+<html>
+<head>
+</head>
+<script language=”javascript”>
+function hitung()
+{
+var k=0;
+var j=0;
+var h=0;
+k=document.currency.kurs.value;
+j=document.currency.jumlah.value;
+h=(k * j);
+document.currency.hasil.value=h;
+  }
+</script>
+<body>
+<form name=”currency”>
+<input type=”text” name=”kurs”>x
+<input type=”text” name=”jumlah”>=
+<input type=”text” name=”hasil”>
+<input type=”button” value=”Hitung” onclick=”hitung();”>
+</form>
+</body>
+</html>

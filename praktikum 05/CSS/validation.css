@@ -1,0 +1,16 @@
+.error{
+    color: red;
+    visibility: visible;
+}
+.sukses{
+    visibility: hidden;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.kotak
+{
+    background-color: brown;
+    width: 400px;
+    height: 250px;
+}

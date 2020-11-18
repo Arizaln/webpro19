@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Rupiah</title>
+    <link rel="stylesheet" href="/praktikum 05/CSS/kurs.css">
+    <script src="/praktikum 05/JS/kurs.js"></script>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Kurs Rupiah - Mata Uang Asing</legend>
+            <table>
+                <tr>
+                    <th>Masukan Nilai</th>
+                    <th>Valas</th>
+                    <th>Nilai Rupiah</th>
+                </tr>
+                <tr>
+                    <td><input id="input_nilai" placeholder="Masukan Uang Anda" type="text"></td>
+                    <td><select id="valas" onclick="rubah_nilai()" id="rubahnilai">
+                            <option value="USD">Dollar US</option>
+                            <option value="SGD">Dollar Singapore</option>
+                            <option value="RM">Ringgit Malaysia</option>
+                            <option value="YJ">Yen Jepang</option>
+                            <option value="EUR">Euro</option>
+                            <option value="RAS">Riyal Arab Saudi</option>
+                        </select></td>
+                    <td><input id="hasil_nilai" readonly value="0" type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>
